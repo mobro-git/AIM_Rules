@@ -12,7 +12,7 @@ rm(list = ls())
 gc()
 
 # Load libraries
-source("scripts/packages.R")
+source("packages.R")
 
 # Load ACS data, pull from API if .Rdata file doesnt exist
 #source("acs_api_query.R")

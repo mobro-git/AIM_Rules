@@ -28,7 +28,7 @@ urban_areas <- urban_areas()
 #########################   Production facility data
 ####################################################
 
-facilities <- read_excel("data/Allocation_Final_list production facilities 2022.xls") %>%
+facilities <- read_excel("data/facilities_data/Allocation_Final_list production facilities 2022.xlsx") %>%
   rename(Latitude = LATITUDE,
          Longitude = LONGITUDE,
          GHG_co2e = `GHG QUANTITY (METRIC TONS CO2e)`,

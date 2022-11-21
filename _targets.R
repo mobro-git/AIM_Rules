@@ -8,7 +8,7 @@ devtools::load_all(".") # load all function definitions in /R
 # Set target-specific options such as packages.
 tar_option_set(
   packages = c("dplyr","readr","tidyverse","datasets"), # packages to make available to targets
-  imports = "AIM_Rules" # watch changes in these functions to invalidate targets
+  imports = "AIMRules" # watch changes in these functions to invalidate targets
 )
 
 # End this file with a list of target objects.

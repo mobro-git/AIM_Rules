@@ -12,11 +12,12 @@ rm(list = ls())
 gc()
 
 # Load libraries
-source("scripts/packages.R")
+source("packages.R")
+devtools::load_all()
 
 # Load ACS data, pull from API if .Rdata file doesnt exist
 #source("acs_api_query.R")
-load("data/acs_data/acs_data_2019_block group.Rdata")
+load("data/acs_data/acs_data_2021_block group.Rdata")
 
 # Load NATA data
 source("scripts/nata_data_pull.R")
